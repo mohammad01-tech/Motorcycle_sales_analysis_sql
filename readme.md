@@ -375,7 +375,9 @@ HAVING
 ORDER BY avg_profit_margin ASC, total_revenue DESC;
 ```
 ![](images/072646.png)
-**7.Which warehouses have the **highest operational inefficiency** (low profit despite high sales)?**	        
+
+**7.Which warehouses have the **highest operational inefficiency** (low profit despite high sales)?**	
+        
 ```
 WITH warehouse_stats AS (
     SELECT
